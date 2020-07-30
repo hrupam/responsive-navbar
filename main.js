@@ -10,7 +10,7 @@ burger.addEventListener('click', () => {
     // TOGGLE BURGER ICON
     burger.classList.toggle('burger-toggle');
 
-    // LINK ANIMATION
+    //CUSTOM LINK ANIMATION
     let delay = 0;
     navLinks.forEach(link => {
         if (link.style.animation) {
@@ -21,4 +21,12 @@ burger.addEventListener('click', () => {
         }
         delay += 0.2;
     })
+
+    // USING ANIMATE.CSS
+    // navLinks.forEach(link =>{
+    //     link.classList.toggle('animate__animated');
+    //     link.classList.toggle('animate__bounceInLeft');
+    // })
+
+
 })
