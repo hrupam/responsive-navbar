@@ -5,7 +5,8 @@
 }
 
 nav {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
